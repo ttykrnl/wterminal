@@ -1,0 +1,70 @@
+
+
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+
+    "defaultProfile": "{TYPE GUID}",
+
+    "profiles":
+    [
+        {
+        
+            "guid": "{x}",
+            "name": "Windows PowerShell",
+            "commandline": "powershell.exe",
+            "hidden": false
+        },
+        {
+          
+            "guid": "{x}",
+            "name": "cmd",
+            "commandline": "cmd.exe",
+            "hidden": false
+        },
+        {
+            "guid": "{x}",
+            "hidden": false,
+            "name": "Ubuntu",
+	    "fontFace" : "Fixedsys Excelsior 3.01",
+	    "fontSize" : 14,
+	    "colorScheme":  "cst",
+            "source": "Windows.Terminal.Wsl"
+
+        },
+        {
+            "guid": "{x}",
+            "hidden": false,
+            "name": "Azure Cloud Shell",
+            "source": "Windows.Terminal.Azure"
+        }
+    ],
+
+
+    "schemes": [
+{
+      "background":  "#262a33",
+      "black":  "#000000",
+      "blue":  "#2472c8",
+      "brightBlack":  "#6272A4",
+      "brightBlue":  "#D6ACFF",
+      "brightCyan":  "#A4FFFF",
+      "brightGreen":  "#69FF94",
+      "brightPurple":  "#FF92DF",
+      "brightRed":  "#FF6E6E",
+      "brightWhite":  "#FFFFFF",
+      "brightYellow":  "#FFFFA5",
+      "cyan":  "#8BE9FD",
+      "foreground":  "#F8F8F2",
+      "green":  "#50FA7B",
+      "name":  "cst",
+      "purple":  "#BD93F9",
+      "red":  "#FF5555",
+      "white":  "#F8F8F2",
+      "yellow":  "#F1FA8C"
+    }
+
+],
+
+
+    "keybindings": []
+}
